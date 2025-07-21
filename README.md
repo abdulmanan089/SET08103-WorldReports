@@ -11,7 +11,7 @@
 | 3 | All capital cities by population (largest to smallest) | Yes | ![Report3](screenshots/Report3.png) |
 | 4 | Top N populated cities where N is provided by user | Yes | ![Report4](screenshots/Report4.png) |
 | 5 | Population distribution by country (cities vs non-cities) | Yes | ![Report5](screenshots/Report5.png) |
-| 6 | World population | Yes | ![Report6](screenshots/report6.png) |
+| 6 | World population | Yes | ![Report6](screenshots/Report6.png) |
 | 7 | Population by area (continent/region/country/district/city) | Yes | ![Report7](screenshots/Report7.png) |
 | 8 | Language speakers (Chinese, English, Spanish) | Yes | ![Report8](screenshots/Report8.png) |
 
