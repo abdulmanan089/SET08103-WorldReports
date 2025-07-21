@@ -6,7 +6,7 @@
 
 | ID | Requirement | Met | Screenshot |
 |----|-------------|-----|------------|
-| 1 | All countries by population (largest to smallest) | Yes | ![Report1](screenshots/report1.png) |
+| 1 | All countries by population (largest to smallest) | Yes | ![Report1](screenshots/Report1.png) |
 | 2 | All cities by population (largest to smallest) | Yes | ![Report2](screenshots/report2.png) |
 | 3 | All capital cities by population (largest to smallest) | Yes | ![Report3](screenshots/report3.png) |
 | 4 | Top N populated cities where N is provided by user | Yes | ![Report4](screenshots/report4.png) |
