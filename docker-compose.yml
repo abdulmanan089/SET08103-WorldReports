@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: world
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./world-db/world.sql:/docker-entrypoint-initdb.d/world.sql
+
+  worldreports-app:
+    build: .
+    container_name: worldreports-app
+    depends_on:
+      - mysql
+    environment:
+      DB_HOST: mysql
+    ports:
+      - "8080:8080"
+
+volumes:
+  mysql-data:
